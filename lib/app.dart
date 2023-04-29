@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Pick a Greater Number Game',
+      title: 'Pick The Greater Number ',
       initialRoute: '/',
       routes: {
         '/': (context) => const NumberGeneratorScreen(),
